@@ -66,14 +66,16 @@ def ws_city(message):
 
 import random
 import time
+@app.route("/update", methods=["GET"])
 def update_status():
-    while True:
-        n = random.randint(1, 5)
-        for i in range(n):
-            print(f"Will update in {n-i} seconds...", end="\r")
-            time.sleep(1)
-        c = get_status(is_incr=True)
-        socketio.emit('msg', {'count': c}, namespace='/dd')
+    # while True:
+    #     n = random.randint(1, 5)
+    #     for i in range(n):
+    #         print(f"Will update in {n-i} seconds...", end="\r")
+    #         time.sleep(1)
+    c = get_status(is_incr=True)
+    socketio.emit('msg', {'count': c}, namespace='/dd')
+    return {"count": c}
 
 if __name__ == '__main__':
 
@@ -82,6 +84,9 @@ if __name__ == '__main__':
     # import threading
     # t = threading.Thread(target=update_status)
     # t.start()
+
+    # To keep updating call this API
+    # http://127.0.0.1:5000/update
 
 
 
