@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Temp-files
+Version: 0.0.1
+Summary: This is test pkg.
+Author: Jeyakumar Kasi
+Author-email: dev.jeyakumar@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: GNU
+Classifier: Operating System :: OS Idependent
+
+This is test pkg long desc.

@@ -1,0 +1,12 @@
+
+sqlalchemy-cockroachdb
+psycopg2-binary==2.8.4
+pika
+Django
+bs4
+
+
+mglearn
+nltk
+# scikit-learn
+
