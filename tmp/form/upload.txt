@@ -1,0 +1,1047 @@
+{
+  "_id": {
+    "$oid": "100000000000000000000000"
+  },
+  "application_id": "DM101447",
+  "bt_application_id": null,
+  "lead_id": "APHLGLB0018PS000001684",
+  "created_at": {
+    "$numberLong": "1695269427165"
+  },
+  "updated_at": {
+    "$numberLong": "1702564638384"
+  },
+  "primary_mobile_number": "7305260120",
+  "pre_fill": false,
+  "case_bt": false,
+  "case_topup": false,
+  "case_bt_topup": false,
+  "primary": {
+    "inquiry_details": {
+      "customer_id": 100701,
+      "salutation": "Justice",
+      "portfolio_type": "home loan",
+      "entity_type": "individual",
+      "borrower_type": "senp",
+      "income_program": "banking surrogate (bs)",
+      "name": "Mayannk",
+      "email": null,
+      "source": "Direct – RM",
+      "source_detail": {
+        "code": "PRGT0001",
+        "name": "Pragatiuserone"
+      },
+      "sub_source": {
+        "name_of_rm": "Pragatiuserone",
+        "phone_of_rm": "9999900011",
+        "emp_id_of_rm": "PRGT0001",
+        "email_of_rm": "pragatiuserone@capriglobal.in",
+        "rm_capri_branch_code": "GLB0018",
+        "rm_flex_branch_code": null,
+        "name_of_bm": "Pragatiuserten",
+        "phone_of_bm": "9999900020",
+        "emp_id_of_bm": "PRGT00010",
+        "email_of_bm": "pragatiuserten@capriglobal.in"
+      },
+      "higher_users_hierarchy": [
+        {
+          "id": 17392,
+          "emp_code": "PRGT00010",
+          "emp_name": "Pragatiuserten",
+          "branch_code": "SUR",
+          "salutation": null,
+          "sbu": "CGCL",
+          "department": "Sales - HL",
+          "sub_department": "Sales - HL",
+          "zone": null,
+          "region": null,
+          "city": "",
+          "branch_name": "SURAT",
+          "functional_designation": "Branch Manager",
+          "mobile": "9999900020",
+          "email": "pragatiuserten@capriglobal.in",
+          "rm1_name": "Abhay Raj",
+          "rm1_code": "CGC33300",
+          "mapped_branches": [],
+          "status": "Active",
+          "created_on": 1684477662,
+          "updated_on": 1684477662
+        },
+        {
+          "id": 17379,
+          "emp_code": "CGC33300",
+          "emp_name": "Abhay Raj",
+          "branch_code": "SUR",
+          "salutation": null,
+          "sbu": "Gold Loan",
+          "department": "Sales - UR",
+          "sub_department": "Sales - UR",
+          "zone": null,
+          "region": null,
+          "city": "",
+          "branch_name": "SURAT",
+          "functional_designation": "Relationship Manager",
+          "mobile": "9953717676",
+          "email": "abhay.raj@capriglobal.in",
+          "rm1_name": "Sumit Sharma",
+          "rm1_code": "CGC00199",
+          "mapped_branches": [],
+          "status": "Active",
+          "created_on": 1684393286,
+          "updated_on": 1684393286
+        },
+        {
+          "id": 17339,
+          "emp_code": "CGC00199",
+          "emp_name": "Sumit Sharma",
+          "branch_code": "SUR",
+          "salutation": null,
+          "sbu": "Gold Loan",
+          "department": null,
+          "sub_department": null,
+          "zone": null,
+          "region": null,
+          "city": "",
+          "branch_name": "SURAT",
+          "functional_designation": "Branch Manager",
+          "mobile": "8279325610",
+          "email": "salesapp.bm1@capriglobal.in",
+          "rm1_name": "EMP GG",
+          "rm1_code": "CGCL507",
+          "mapped_branches": [],
+          "status": "Active",
+          "created_on": 1681108768,
+          "updated_on": 1681108768
+        },
+        {
+          "id": 313,
+          "emp_code": "CGCL507",
+          "emp_name": "EMP GG",
+          "branch_code": "SUR",
+          "salutation": null,
+          "sbu": "Urban Retail",
+          "department": null,
+          "sub_department": "Sales - UR",
+          "zone": null,
+          "region": null,
+          "city": "",
+          "branch_name": "SURAT",
+          "functional_designation": "Branch Manager",
+          "mobile": "81026185627",
+          "email": "EMPGGtC@capriglobal.in",
+          "rm1_name": "Super User",
+          "rm1_code": "CGCLSU",
+          "mapped_branches": [
+            {
+              "branch_code": "GL0004",
+              "is_active": true
+            }
+          ],
+          "status": "Active",
+          "created_on": 1669872923,
+          "updated_on": 1669903358
+        }
+      ],
+      "lower_users_hierarchy": [],
+      "loan_branch": "SURAT",
+      "loan_purpose": "Plot purchase + construction (Composite)",
+      "transaction_type": "Construction",
+      "special_program_code": "NHB Lift 2",
+      "product_type": "HL – Sahaj Variable",
+      "profession_type": null,
+      "gross_income_per_month": 20000,
+      "gross_income_yearly": 240000,
+      "loan_requirement": 225000,
+      "loan_tenor_in_months": 85,
+      "requested_roi": null,
+      "marital_status": "Single",
+      "alternate_phone_number": null,
+      "name_of_financial_institution": null,
+      "category_of_financial_institution": null,
+      "branch_code": "glb0019"
+    }
+  },
+  "applicant": {
+    "primary": {
+      "id": 100942,
+      "relationship": "Self",
+      "name": "Mayannk",
+      "mobile_number": "5432112392",
+      "is_financial_co_applicant": false,
+      "applicant_type": "Primary Applicant",
+      "entity_type": "Individual",
+      "bt_applicant_id": null,
+      "salutation": "Justice",
+      "profile_photo": {
+        "lat": 28.4799717,
+        "long": 77.1023307,
+        "file_path": "https://capriglobal-dev.s3.ap-south-1.amazonaws.com/uploads/4044bdfc-bcd5-42d2-baeb-a1e1da8a627c.jpg",
+        "created_at": {
+          "$numberLong": "1695268124414"
+        },
+        "lat_long_address": "205, 2nd Floor, Tower D, Global Business Park, MG Road, Sikanderpur, Sector 26, Gurugram, Haryana 122002, India"
+      },
+      "additional_info": {
+        "dob": "23-09-1988",
+        "caste": "OBC",
+        "gender": "Male",
+        "religion": "Christian",
+        "obligation": 2000,
+        "father_name": "Father",
+        "mother_name": "Mother",
+        "marital_status": "Single",
+        "no_of_dependents": 2,
+        "residential_status": "Indian",
+        "educational_qualification": "Professional course/ certification"
+      },
+      "address_details": {
+        "current_address": {
+          "area": "Kanina",
+          "city": "Mahendragarh",
+          "state": "Haryana",
+          "taluka": "Kanina",
+          "pincode": 123027,
+          "district": "Mahendragarh",
+          "landmark": "Kakrala",
+          "address_line_1": "S/O: Shyam Lal, 67, ges 6, kanina, Kanina (Rural)(14), Kanina, Mahendragarh, Haryana, 123027",
+          "address_line_2": "Kanina"
+        },
+        "business_address": {
+          "area": "Kanina",
+          "city": "Mahendragarh",
+          "state": "Haryana",
+          "taluka": "Kanina",
+          "pincode": 123027,
+          "district": "Mahendragarh",
+          "landmark": "Kakrala",
+          "address_line_1": "S/O: Shyam Lal, 67, ges 6, kanina, Kanina (Rural)(14), Kanina, Mahendragarh, Haryana, 123027",
+          "address_line_2": "Kanina"
+        },
+        "permanent_address": {
+          "area": "Kanina",
+          "city": "Mahendragarh",
+          "state": "Haryana",
+          "taluka": "Kanina",
+          "pincode": 123027,
+          "district": "Mahendragarh",
+          "landmark": "Kakrala",
+          "address_line_1": "S/O: Shyam Lal, 67, ges 6, kanina, Kanina (Rural)(14), Kanina, Mahendragarh, Haryana, 123027",
+          "address_line_2": ""
+        },
+        "current_address_same_as": "Aadhar",
+        "type_of_current_address": "Owned",
+        "business_address_same_as": "Current",
+        "permanent_address_same_as": "Aadhar",
+        "current_address_vintage_in_months": 20
+      },
+      "last_name": "S/O Father",
+      "first_name": "Mayannk",
+      "gross_income_per_month": 20000,
+      "gross_income_yearly": 240000,
+      "borrower_type": "SENP",
+      "authorised_signatory": null,
+      "co_applicant_category": null,
+      "number_of_dependents": 2,
+      "applicant_obligation": 2000,
+      "organization_info": {
+        "entity_name": "Entity",
+        "constitution": "Sole Proprietorship",
+        "organization_name": "Capri",
+        "nature_of_business": "Traders",
+        "current_business_experience": 20,
+        "overall_business_experience": 100
+      },
+      "kyc_ckyc": {
+        "status": true,
+        "upload_pan": "d55fc892-5831-11ee-b934-3ed2d3218902$pan/temp_image_673965.jpg",
+        "name": "Mr MAYANK  GARG",
+        "pan_number": "BDNPG7902E",
+        "father_name": "Mr SHYAM LAL GARG",
+        "dob": "1994-02-25",
+        "ckyc_num": "60011417693697"
+      },
+      "kyc_aadhar": {
+        "name": "Mayannk",
+        "dob": "1995-06-17",
+        "gender": "Male",
+        "upload_aadhaar_front_side": "https://capriglobal-dev.s3.ap-south-1.amazonaws.com/uploads/100362/100830/aadhar/351fbe89-3b5b-408e-ad60-a484d66e2d64.jpg",
+        "upload_aadhaar_back_side": "https://capriglobal-dev.s3.ap-south-1.amazonaws.com/uploads/100362/100830/aadhar/84a66504-3a33-47cf-8039-6e8d9d346325.jpg",
+        "biometric_authentication": null,
+        "aadhaar_number": "xxxxxxxx4258",
+        "address": null,
+        "pincode": 123027,
+        "aadhaar_updated_at": "2023-09-21 09:20:03"
+      },
+      "bureau_check": {
+        "id": null,
+        "score": "195",
+        "pdfUrl": null,
+        "status": "APPROVED",
+        "xmlUrl": null,
+        "jsonUrl": null,
+        "created_at": 1695268850
+      },
+      "bank_acc_details": [
+        {
+          "id": 0,
+          "lat": "28.479969",
+          "long": "77.102324",
+          "source": "RM",
+          "bank_name": "Punjab National Bank",
+          "ifsc_code": "PUNB0073500",
+          "statement": "https://capriglobal-dev.s3.ap-south-1.amazonaws.com/bank_statement_pdfs/APHLGLB0018PS000001684-100830-15087115-bank_statement.pdf",
+          "branch_name": "KANINA",
+          "account_type": "Current",
+          "account_since": "5 to 10 years",
+          "account_number": "1234567890",
+          "bank_aggregator": false,
+          "lat_long_address": "205, 2nd Floor, Tower D, Global Business Park, MG Road, Sikanderpur, Sector 26, Gurugram, Haryana 122002, India",
+          "is_aadhaar_linked": true,
+          "bank_aggregator_id": null,
+          "aggregator_response": {}
+        },
+        {
+          "id": 1,
+          "lat": "28.4799884",
+          "long": "77.1023268",
+          "source": "RM",
+          "bank_name": "HDFC Bank",
+          "ifsc_code": "HDFC0003590",
+          "statement": "https://capriglobal-dev.s3.ap-south-1.amazonaws.com/bank_statement_pdfs/APHLGLB0018PS000001684-100830-11500431-bank_statement.pdf",
+          "branch_name": "AGONDH",
+          "account_type": "Current",
+          "account_since": "5 to 10 years",
+          "account_number": "9874561230",
+          "bank_aggregator": false,
+          "lat_long_address": "#02, Tower D, Sikanderpur, Sector 26, Gurugram, Haryana 122002, India",
+          "is_aadhaar_linked": true,
+          "bank_aggregator_id": null,
+          "aggregator_response": {}
+        }
+      ],
+      "property_details": [
+        {
+          "id": 1,
+          "lat": 28.4799766,
+          "long": 77.102325,
+          "occupancy": "Vacant",
+          "created_at": "2023-09-21 09:37:14",
+          "updated_at": "2023-09-21 09:37:55",
+          "area_in_sqft": "9870",
+          "property_type": "Residential",
+          "is_it_seller_bt": null,
+          "lat_long_address": "205, 2nd Floor, Tower D, Global Business Park, MG Road, Sikanderpur, Sector 26, Gurugram, Haryana 122002, India",
+          "property_address": {
+            "area": "Kanina",
+            "city": "Mahendragarh",
+            "state": "Haryana",
+            "taluka": "Kanina",
+            "pincode": 123027,
+            "district": "Mahendragarh",
+            "landmark": "Kakrala",
+            "address_line_1": "S/O: Shyam Lal, 67, ges 6, kanina, Kanina (Rural)(14), Kanina, Mahendragarh, Haryana, 123027",
+            "address_line_2": "Kanina",
+            "same_as_current_address": true,
+            "same_as_permanent_address": false
+          },
+          "address_belongs_to": [
+            {
+              "owner_id": 100830,
+              "owner_name": "Mayannk",
+              "owner_type": "Primary Applicant"
+            }
+          ],
+          "property_ownership": {
+            "type": "joint",
+            "property_owners": [
+              {
+                "owner_id": 100830,
+                "owner_name": "Mayannk",
+                "owner_type": "Primary Applicant"
+              },
+              {
+                "owner_id": 100831,
+                "owner_name": "Mayank",
+                "owner_type": "Non-Financial Co-Applicant"
+              }
+            ]
+          },
+          "refinance_transaction": null,
+          "tentative_property_value": "23000",
+          "property_documents": [
+            {
+              "lat": 28.4799764,
+              "long": 77.1023318,
+              "document_url": [
+                "https://capriglobal-dev.s3.ap-south-1.amazonaws.com/uploads/100362/property_documents/0fd5a433-c5b2-4440-8dc7-bfd65a800216.jpg"
+              ],
+              "document_type": "Ownership documents",
+              "lat_long_address": "205, 2nd Floor, Tower D, Global Business Park, MG Road, Sikanderpur, Sector 26, Gurugram, Haryana 122002, India"
+            },
+            {
+              "lat": 28.4799764,
+              "long": 77.1023318,
+              "document_url": [],
+              "document_type": "Conversion",
+              "lat_long_address": "205, 2nd Floor, Tower D, Global Business Park, MG Road, Sikanderpur, Sector 26, Gurugram, Haryana 122002, India"
+            },
+            {
+              "lat": 28.4799764,
+              "long": 77.1023318,
+              "document_url": [],
+              "document_type": "Identification",
+              "lat_long_address": "205, 2nd Floor, Tower D, Global Business Park, MG Road, Sikanderpur, Sector 26, Gurugram, Haryana 122002, India"
+            },
+            {
+              "lat": 28.4799764,
+              "long": 77.1023318,
+              "document_url": [],
+              "document_type": "Title documents",
+              "lat_long_address": "205, 2nd Floor, Tower D, Global Business Park, MG Road, Sikanderpur, Sector 26, Gurugram, Haryana 122002, India"
+            },
+            {
+              "lat": 28.4799764,
+              "long": 77.1023318,
+              "document_url": [],
+              "document_type": "Chain documents",
+              "lat_long_address": "205, 2nd Floor, Tower D, Global Business Park, MG Road, Sikanderpur, Sector 26, Gurugram, Haryana 122002, India"
+            },
+            {
+              "lat": 28.4799764,
+              "long": 77.1023318,
+              "document_url": [],
+              "document_type": "Possession Proof",
+              "lat_long_address": "205, 2nd Floor, Tower D, Global Business Park, MG Road, Sikanderpur, Sector 26, Gurugram, Haryana 122002, India"
+            },
+            {
+              "lat": 28.4799764,
+              "long": 77.1023318,
+              "document_url": [],
+              "document_type": "Agreement to sale",
+              "lat_long_address": "205, 2nd Floor, Tower D, Global Business Park, MG Road, Sikanderpur, Sector 26, Gurugram, Haryana 122002, India"
+            }
+          ],
+          "collateral": {
+            "collateral_id": "AP100941CL1",
+            "collateral_code": 212,
+            "collateral_value": "23000",
+            "is_collateral_linked": true
+          },
+          "legal_reference": {
+            "legal_branch_code": "glb0019",
+            "legal_coordinator": "ddtest@capriglobal.in",
+            "legal_manager": "ddtest@capriglobal.in",
+			"legal_manager_assigned_on": 1702564638384,
+			"legal_coordinator_assigned_on": 1702564618384,
+          },
+          "property_legal_status": "VENDOR_SUBMITTED",
+          "vendor_reference": {
+            "vendor_email": "ddtest@capriglobal.in",
+            "vendor_id": "CGCL2013",
+            "vendor_name": "DD Test",
+            "assigned_on": {
+              "$numberLong": "1701062446408"
+            },
+            "submitted_on": {
+              "$numberLong": "1701062546182"
+            }
+          },
+          "vendor_status": "Positive"
+        },
+        {
+          "id": 2,
+          "lat": 28.4799823,
+          "long": 77.1023267,
+          "occupancy": "Rented",
+          "created_at": "2023-09-21 09:38:41",
+          "updated_at": "2023-09-21 09:39:04",
+          "area_in_sqft": "100",
+          "property_type": "Residential",
+          "is_it_seller_bt": null,
+          "lat_long_address": "#02, Tower D, Sikanderpur, Sector 26, Gurugram, Haryana 122002, India",
+          "property_address": {
+            "area": "Kanina",
+            "city": "Mahendragarh",
+            "state": "Haryana",
+            "taluka": "Kanina",
+            "pincode": 123027,
+            "district": "Mahendragarh",
+            "landmark": "Kakrala",
+            "address_line_1": "S/O: Shyam Lal, 67, ges 6, kanina, Kanina (Rural)(14), Kanina, Mahendragarh, Haryana, 123027",
+            "address_line_2": "",
+            "same_as_current_address": true,
+            "same_as_permanent_address": false
+          },
+          "address_belongs_to": [
+            {
+              "owner_id": 100830,
+              "owner_name": "Mayannk",
+              "owner_type": "Primary Applicant"
+            }
+          ],
+          "property_ownership": {
+            "type": "single",
+            "property_owners": [
+              {
+                "owner_id": 100830,
+                "owner_name": "Mayannk",
+                "owner_type": "Primary Applicant"
+              }
+            ]
+          },
+          "refinance_transaction": null,
+          "tentative_property_value": "100000",
+          "property_documents": [
+            {
+              "lat": 28.4799773,
+              "long": 77.1023163,
+              "document_url": [],
+              "document_type": "Ownership documents",
+              "lat_long_address": "205, 2nd Floor, Tower D, Global Business Park, MG Road, Sikanderpur, Sector 26, Gurugram, Haryana 122002, India"
+            },
+            {
+              "lat": 28.4799773,
+              "long": 77.1023163,
+              "document_url": [
+                "https://capriglobal-dev.s3.ap-south-1.amazonaws.com/uploads/100362/property_documents/96d7defa-d846-4eb7-9286-c35e7f23baac.jpg"
+              ],
+              "document_type": "Conversion",
+              "lat_long_address": "205, 2nd Floor, Tower D, Global Business Park, MG Road, Sikanderpur, Sector 26, Gurugram, Haryana 122002, India"
+            },
+            {
+              "lat": 28.4799773,
+              "long": 77.1023163,
+              "document_url": [],
+              "document_type": "Identification",
+              "lat_long_address": "205, 2nd Floor, Tower D, Global Business Park, MG Road, Sikanderpur, Sector 26, Gurugram, Haryana 122002, India"
+            },
+            {
+              "lat": 28.4799773,
+              "long": 77.1023163,
+              "document_url": [],
+              "document_type": "Title documents",
+              "lat_long_address": "205, 2nd Floor, Tower D, Global Business Park, MG Road, Sikanderpur, Sector 26, Gurugram, Haryana 122002, India"
+            },
+            {
+              "lat": 28.4799773,
+              "long": 77.1023163,
+              "document_url": [],
+              "document_type": "Chain documents",
+              "lat_long_address": "205, 2nd Floor, Tower D, Global Business Park, MG Road, Sikanderpur, Sector 26, Gurugram, Haryana 122002, India"
+            },
+            {
+              "lat": 28.4799773,
+              "long": 77.1023163,
+              "document_url": [],
+              "document_type": "Possession Proof",
+              "lat_long_address": "205, 2nd Floor, Tower D, Global Business Park, MG Road, Sikanderpur, Sector 26, Gurugram, Haryana 122002, India"
+            },
+            {
+              "lat": 28.4799773,
+              "long": 77.1023163,
+              "document_url": [],
+              "document_type": "Agreement to sale",
+              "lat_long_address": "205, 2nd Floor, Tower D, Global Business Park, MG Road, Sikanderpur, Sector 26, Gurugram, Haryana 122002, India"
+            }
+          ],
+          "collateral": {
+            "collateral_id": "AP100941CL2",
+            "collateral_code": 211,
+            "collateral_value": "100000",
+            "is_collateral_linked": false
+          },
+          "legal_reference": {
+            "legal_branch_code": "glb0019",
+            "legal_coordinator": "ddtest@capriglobal.in",
+            "legal_manager": "ddtest@capriglobal.in"
+          },
+          "property_legal_status": "VENDOR_SUBMITTED",
+          "vendor_reference": {
+            "vendor_email": "ddtest@capriglobal.in",
+            "vendor_id": "CGCL2013",
+            "vendor_name": "DD Test",
+            "assigned_on": {
+              "$numberLong": "1701062446408"
+            },
+            "submitted_on": {
+              "$numberLong": "1701062552236"
+            }
+          },
+          "vendor_status": "Positive"
+        },
+        {
+          "id": 3,
+          "lat": 28.4799802,
+          "long": 77.1023194,
+          "occupancy": "Vacant",
+          "created_at": "2023-09-21 09:39:43",
+          "updated_at": "2023-09-21 09:39:43",
+          "area_in_sqft": "100",
+          "property_type": "Residential",
+          "is_it_seller_bt": null,
+          "lat_long_address": "#02, Tower D, Sikanderpur, Sector 26, Gurugram, Haryana 122002, India",
+          "property_address": {
+            "area": "Kanina",
+            "city": "Mahendragarh",
+            "state": "Haryana",
+            "taluka": "Kanina",
+            "pincode": 123027,
+            "district": "Mahendragarh",
+            "landmark": "Kakrala",
+            "address_line_1": "S/O: Shyam Lal, 67, ges 6, kanina, Kanina (Rural)(14), Kanina, Mahendragarh, Haryana, 123027",
+            "address_line_2": "",
+            "same_as_current_address": true,
+            "same_as_permanent_address": false
+          },
+          "address_belongs_to": [
+            {
+              "owner_id": 100831,
+              "owner_name": "Mayank",
+              "owner_type": "Non-Financial Co-Applicant"
+            }
+          ],
+          "property_ownership": {
+            "type": "single",
+            "property_owners": [
+              {
+                "owner_id": 100831,
+                "owner_name": "Mayank",
+                "owner_type": "Non-Financial Co-Applicant"
+              }
+            ]
+          },
+          "refinance_transaction": null,
+          "tentative_property_value": "50000",
+          "property_documents": [
+            {
+              "lat": 28.4799823,
+              "long": 77.1023267,
+              "document_url": [
+                "https://capriglobal-dev.s3.ap-south-1.amazonaws.com/uploads/100362/property_documents/c8a0ff32-de2b-4d5c-848b-b4aa72dc9f49.jpg"
+              ],
+              "document_type": "Ownership documents",
+              "lat_long_address": "#02, Tower D, Sikanderpur, Sector 26, Gurugram, Haryana 122002, India"
+            },
+            {
+              "lat": 28.4799823,
+              "long": 77.1023267,
+              "document_url": [],
+              "document_type": "Conversion",
+              "lat_long_address": "#02, Tower D, Sikanderpur, Sector 26, Gurugram, Haryana 122002, India"
+            },
+            {
+              "lat": 28.4799823,
+              "long": 77.1023267,
+              "document_url": [],
+              "document_type": "Identification",
+              "lat_long_address": "#02, Tower D, Sikanderpur, Sector 26, Gurugram, Haryana 122002, India"
+            },
+            {
+              "lat": 28.4799823,
+              "long": 77.1023267,
+              "document_url": [],
+              "document_type": "Title documents",
+              "lat_long_address": "#02, Tower D, Sikanderpur, Sector 26, Gurugram, Haryana 122002, India"
+            },
+            {
+              "lat": 28.4799823,
+              "long": 77.1023267,
+              "document_url": [],
+              "document_type": "Chain documents",
+              "lat_long_address": "#02, Tower D, Sikanderpur, Sector 26, Gurugram, Haryana 122002, India"
+            },
+            {
+              "lat": 28.4799823,
+              "long": 77.1023267,
+              "document_url": [],
+              "document_type": "Possession Proof",
+              "lat_long_address": "#02, Tower D, Sikanderpur, Sector 26, Gurugram, Haryana 122002, India"
+            },
+            {
+              "lat": 28.4799823,
+              "long": 77.1023267,
+              "document_url": [],
+              "document_type": "Agreement to sale",
+              "lat_long_address": "#02, Tower D, Sikanderpur, Sector 26, Gurugram, Haryana 122002, India"
+            }
+          ],
+          "collateral": {
+            "collateral_id": "AP100941CL3",
+            "collateral_code": 212,
+            "collateral_value": "50000",
+            "is_collateral_linked": false
+          },
+          "legal_reference": {
+            "legal_branch_code": "glb0019",
+            "legal_coordinator": "ddtest@capriglobal.in",
+            "legal_manager": "ddtest@capriglobal.in"
+          },
+          "property_legal_status": "VENDOR_SUBMITTED",
+          "vendor_reference": {
+            "vendor_email": "ddtest@capriglobal.in",
+            "vendor_id": "CGCL2013",
+            "vendor_name": "DD Test",
+            "assigned_on": {
+              "$numberLong": "1701062446408"
+            },
+            "submitted_on": {
+              "$numberLong": "1701062557150"
+            }
+          },
+          "vendor_status": "Positive"
+        }
+      ],
+      "reference": [
+        {
+          "id": 1,
+          "mobile": "8529329509",
+          "full_name": "Yogesh",
+          "created_at": "2023-09-21 09:40:06",
+          "occupation": "Nome",
+          "updated_at": "2023-09-21 09:40:06",
+          "knows_since": "3 Years 2 Months",
+          "relationship_with_the_applicant": "Friend"
+        },
+        {
+          "id": 2,
+          "mobile": "8529329509",
+          "full_name": "None",
+          "created_at": "2023-09-21 09:40:22",
+          "occupation": "Zvbs",
+          "updated_at": "2023-09-21 09:40:22",
+          "knows_since": "4 Years 3 Months",
+          "relationship_with_the_applicant": "Neighbor"
+        }
+      ],
+      "fc_cust_id": 605746
+    },
+    "co_applicant": [
+      {
+        "id": 100943,
+        "relationship": "Friend",
+        "name": "Mayank",
+        "mobile_number": "5432112393",
+        "is_financial_co_applicant": false,
+        "applicant_type": "Non-Financial Co-Applicant",
+        "entity_type": "Individual",
+        "bt_applicant_id": null,
+        "salutation": "Ms",
+        "profile_photo": {
+          "lat": 28.4799764,
+          "long": 77.1023233,
+          "file_path": "https://capriglobal-dev.s3.ap-south-1.amazonaws.com/uploads/9dc34fa1-2cd7-4831-852b-65a86c0e62cd.jpg",
+          "created_at": {
+            "$numberLong": "1695268330794"
+          },
+          "lat_long_address": "205, 2nd Floor, Tower D, Global Business Park, MG Road, Sikanderpur, Sector 26, Gurugram, Haryana 122002, India"
+        },
+        "additional_info": {
+          "dob": "21-09-2004",
+          "caste": "OBC",
+          "gender": "Male",
+          "religion": "Parsi",
+          "father_name": "F.name",
+          "mother_name": "Ma.nme",
+          "spouse_name": "Ni",
+          "marital_status": "Unmarried",
+          "residential_status": "Indian",
+          "educational_qualification": "Professional course/ certification"
+        },
+        "address_details": {
+          "current_address": {
+            "area": "Kanina",
+            "city": "Mahendragarh",
+            "state": "Haryana",
+            "taluka": "Kanina",
+            "pincode": 123027,
+            "district": "Mahendragarh",
+            "landmark": "Kakrala",
+            "address_line_1": "S/O: Shyam Lal, 67, ges 6, kanina, Kanina (Rural)(14), Kanina, Mahendragarh, Haryana, 123027",
+            "address_line_2": ""
+          },
+          "permanent_address": {
+            "area": "Kanina",
+            "city": "Mahendragarh",
+            "state": "Haryana",
+            "taluka": "Kanina",
+            "pincode": 123027,
+            "district": "Mahendragarh",
+            "landmark": "Kakrala",
+            "address_line_1": "S/O: Shyam Lal, 67, ges 6, kanina, Kanina (Rural)(14), Kanina, Mahendragarh, Haryana, 123027",
+            "address_line_2": ""
+          },
+          "current_address_same_as": "Aadhar",
+          "type_of_current_address": "Rented",
+          "permanent_address_same_as": "Aadhar",
+          "current_address_vintage_in_months": 22
+        },
+        "last_name": "S/O F.name",
+        "first_name": "Mayank",
+        "number_of_dependents": 0,
+        "co_applicant_category": null,
+        "authorised_signatory": null,
+        "gross_income_yearly": 0,
+        "designation": null,
+        "borrower_type": "SENP",
+        "gross_income_per_month": 0,
+        "applicant_obligation": 0,
+        "email": null,
+        "kyc_ckyc": {
+          "status": true,
+          "upload_pan": "46ed4b7e-5832-11ee-b934-3ed2d3218902$pan/temp_image_493832.jpg",
+          "name": "Miss SAMIKSHA  ARYA",
+          "pan_number": "BJEPA0158B",
+          "father_name": "Mr ANIL KUMAR  ARYA",
+          "dob": "1991-04-12",
+          "ckyc_num": "30069740457512"
+        },
+        "kyc_aadhar": {
+          "name": "Mayank",
+          "dob": "1995-06-17",
+          "gender": "Male",
+          "upload_aadhaar_front_side": "https://capriglobal-dev.s3.ap-south-1.amazonaws.com/uploads/100362/100831/aadhar/d4a1520d-95fc-4968-943b-d18d0089dc64.jpg",
+          "upload_aadhaar_back_side": "https://capriglobal-dev.s3.ap-south-1.amazonaws.com/uploads/100362/100831/aadhar/1c709663-7dd3-4ab4-a412-8613f2424a10.jpg",
+          "biometric_authentication": null,
+          "aadhaar_number": "xxxxxxxx4258",
+          "address": null,
+          "pincode": 123027,
+          "aadhaar_updated_at": "2023-09-21 09:23:09"
+        },
+        "bureau_check": {
+          "id": null,
+          "score": "150",
+          "pdfUrl": null,
+          "status": "APPROVED",
+          "xmlUrl": null,
+          "jsonUrl": null,
+          "created_at": 1695268852
+        },
+        "fc_cust_id": 605747
+      }
+    ],
+    "guarantors": [
+      {
+        "id": 100944,
+        "relationship": "Friend",
+        "name": "Mayank",
+        "mobile_number": "5432112394",
+        "is_financial_co_applicant": false,
+        "applicant_type": "Guarantor",
+        "entity_type": "Individual",
+        "bt_applicant_id": null,
+        "salutation": "Ms",
+        "profile_photo": {
+          "lat": 28.4799803,
+          "long": 77.1023153,
+          "file_path": "https://capriglobal-dev.s3.ap-south-1.amazonaws.com/uploads/2e4962b6-b6c4-47ec-bce6-f68c21e3df46.jpg",
+          "created_at": {
+            "$numberLong": "1695269042383"
+          },
+          "lat_long_address": "#02, Tower D, Sikanderpur, Sector 26, Gurugram, Haryana 122002, India"
+        },
+        "additional_info": {
+          "dob": "21-09-1993",
+          "caste": "SC",
+          "gender": "Male",
+          "religion": "Jain",
+          "father_name": "Fname",
+          "mother_name": "Kname",
+          "spouse_name": null,
+          "marital_status": "Unmarried",
+          "employer_details": {},
+          "residential_status": "Indian",
+          "educational_qualification": "Graduate/ Undergraduate"
+        },
+        "address_details": {
+          "current_address": {
+            "area": "NA",
+            "city": "SASARAM",
+            "state": "Bihar",
+            "taluka": "NA",
+            "pincode": 821115,
+            "district": "Patna",
+            "landmark": "NA",
+            "address_line_1": "HARE KRISHNA COLONY WARD 12,SASARAM NAGAR SASARAM",
+            "address_line_2": "SASARAM ROHTAS"
+          },
+          "permanent_address": {
+            "area": "NA",
+            "city": "SASARAM",
+            "state": "Bihar",
+            "taluka": "NA",
+            "pincode": 821115,
+            "district": "Patna",
+            "landmark": "NA",
+            "address_line_1": "HARE KRISHNA COLONY WARD 12,SASARAM NAGAR SASARAM",
+            "address_line_2": "SASARAM ROHTAS"
+          },
+          "current_address_same_as": "Aadhar",
+          "type_of_current_address": "Rented",
+          "permanent_address_same_as": "Aadhar",
+          "current_address_vintage_in_months": 20
+        },
+        "last_name": "S/O Fname",
+        "first_name": "Mayank",
+        "number_of_dependents": 2,
+        "co_applicant_category": "Chartered Accountants",
+        "authorised_signatory": false,
+        "gross_income_yearly": 36000,
+        "designation": "Qa",
+        "borrower_type": "SEP",
+        "gross_income_per_month": 3000,
+        "applicant_obligation": 2000,
+        "email": null,
+        "kyc_ckyc": {
+          "status": true,
+          "upload_pan": "f0463928-5833-11ee-9114-62ed00ccd4bc$pan/temp_image_117051.jpg",
+          "name": "MR ROHIT KUMAR",
+          "pan_number": "DJCPK6308F",
+          "father_name": "MR BAIJ NATH SINGH",
+          "dob": "1991-01-02",
+          "ckyc_num": "60091150887210"
+        },
+        "kyc_aadhar": {
+          "name": "Mayank",
+          "dob": "1991-01-02",
+          "gender": "Male",
+          "upload_aadhaar_front_side": "f0b3f92c-5833-11ee-9114-62ed00ccd4bc$aadhaar/temp_image_590488.jpg",
+          "upload_aadhaar_back_side": "f0b3f92c-5833-11ee-9114-62ed00ccd4bc$aadhaar/temp_image_590488.jpg",
+          "biometric_authentication": null,
+          "aadhaar_number": "XXXXXXXX0888",
+          "address": null,
+          "pincode": "821115",
+          "aadhaar_updated_at": null
+        },
+        "bureau_check": {
+          "id": null,
+          "score": "178",
+          "pdfUrl": null,
+          "status": "APPROVED",
+          "xmlUrl": null,
+          "jsonUrl": null,
+          "created_at": 1695269091
+        },
+        "fc_cust_id": 605745
+      }
+    ]
+  },
+  "imd_fee": {
+    "mode": "DD",
+    "amount": "2503",
+    "status": "paid",
+    "location": {
+      "lat": 28.4799875,
+      "long": 77.1023144
+    },
+    "details": {
+      "status": "paid",
+      "amount": "2503",
+      "payment_details": {
+        "id": null,
+        "amount": "2503",
+        "notify": {
+          "sms": true,
+          "email": true,
+          "whatsapp": false
+        },
+        "status": "created",
+        "currency": "INR",
+        "customer": {
+          "name": "Mayannk",
+          "contact": "9069060851"
+        },
+        "upi_link": null,
+        "expire_by": null,
+        "short_url": "https://capriglobal-dev.s3.ap-south-1.amazonaws.com/uploads/0d9eebba-d733-4685-a1f9-cb96cd6ca2c0.jpg",
+        "created_at": "2023-09-21 09:30:41",
+        "expired_at": null,
+        "updated_at": "2023-09-21 09:30:41",
+        "amount_paid": "2503",
+        "description": "APHLGLB0018PS000001684",
+        "cancelled_at": null,
+        "reference_id": null,
+        "accept_partial": false,
+        "payment_gateway": null,
+        "reminder_enable": false,
+        "first_min_partial_amount": 0
+      }
+    },
+    "fc_receipt_no": "RE/LMS/22092023/00000193",
+    "fc_transaction_id": "f58a1a62-8055-4476-8d63-41733045b689"
+  },
+  "is_deleted": false,
+  "created_by": "cctest@capriglobal.in",
+  "assignee_details": {
+    "email": "Testsbulogin@capriglobal.in",
+    "name": "Shivangi Sharma",
+    "designation": "Relationship Manager",
+    "emp_code": "",
+    "branch_code": "GLB0001",
+    "legal_branch_code": "glb0019",
+    "legal_coordinator": "ddtest@capriglobal.in",
+    "legal_manager": "noh9@capriglobal.in",
+    "legal_approver_designation": "national legal manager"
+  },
+  "assignor_details": {
+    "email": "ddtest@capriglobal.in",
+    "name": "DD Test",
+    "designation": "Area Operations Manager",
+    "emp_code": "CGCL2014",
+    "branch_code": "GLB0019"
+  },
+  "cpu_status": "SUBMITTED",
+  "updated_by": "noh8@capriglobal.in",
+  "loan_account_number": "51500003143199",
+  "payment_mandate": {
+    "umrn_number": "UMRN51500003143199",
+    "reference_plan_number": "MPLN51500003143199"
+  },
+  "legal_stage": "RECOMMENDED_TO_LA",
+  "queries": [],
+  "tat": {
+    "time_spent_in_query": 0,
+    "open_query": false
+  },
+  "lead_status": "CREDIT_RECOMMENDATION",
+  "lead_sub_status": "PD_COMPLETED",
+  "remarks": [],
+  "pd_status": "POSITIVE",
+  "legal_approvals": [
+    {
+      "status": "RECOMMEND",
+      "remarks": "Recommending to My Higher Authority",
+      "created_by": {
+        "email": "noh9@capriglobal.in",
+        "emp_code": "CGCL00067",
+        "designation": "legal manager"
+      },
+      "created_at": {
+        "$numberLong": "1702562796529"
+      }
+    },
+    {
+      "status": "RECOMMEND",
+      "remarks": "Recommending to My Higher Authority as LA",
+      "created_by": {
+        "email": "noh8@capriglobal.in",
+        "emp_code": "CGCL00060",
+        "designation": "area legal manager"
+      },
+      "created_at": {
+        "$numberLong": "1702563127985"
+      }
+    },
+    {
+      "status": "REASSIGN",
+      "remarks": "Reassigning to NLM",
+      "created_by": {
+        "email": "noh8@capriglobal.in",
+        "emp_code": "CGCL00060",
+        "designation": "area legal manager"
+      },
+      "created_at": {
+        "$numberLong": "1702564638384"
+      }
+    }
+  ]
+}

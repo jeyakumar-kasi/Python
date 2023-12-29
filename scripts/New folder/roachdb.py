@@ -45,6 +45,7 @@ print(f'Total: {cpu_count}, Allocated: {max_cpu_count}')
 processes = []
 
 def init(process_count):
+    print('INIT function.....')
     offset = 0
     for pid in range(process_count):
         params = (pid, offset)
@@ -65,3 +66,18 @@ def init(process_count):
 # Start
 if __name__ == '__main__':
     init(1) # max_cpu_count)
+        
+        
+    
+
+
+
+
+#partner(thread_id=1, offset=0, limit=10)
+#config(thread_id=2, offset=0, limit=10)
+
+
+
+
+
+

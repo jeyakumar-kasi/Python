@@ -1,12 +1,30 @@
 
 sqlalchemy-cockroachdb
-psycopg2-binary==2.8.4
+#2.9.5, 2.9.3, 2.8.4
+psycopg2-binary==2.9.5 
 pika
 Django
 bs4
+
+## Testcases
+fastapi==0.95.0
+pydantic==1.10.7
+uvicorn==0.21.1
+httpx==0.24.0
+mongomock
 
 
 mglearn
 nltk
 # scikit-learn
+
+## Computer Vision
+torch
+torchvision
+imageio
+imageio[ffmpeg]
+
+
+
+
 

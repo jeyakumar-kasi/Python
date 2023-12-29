@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+    
+    <style type="text/css">
+        {{ style | safe }}  
+    </style>
+  </head>
+  <body
+    class="c20 doc-content"
+    style="font-family: Arial, Helvetica, sans-serif; width: 80%;"
+  >
+  <div id="page">
+    <div class="container">
+      <div class="element" style="max-height: 100px; max-width: 100px; margin-left: -35pt;"  >
+      {% if logo_data %}
+        <img
+          src="{{ logo_data | safe }}"
+          height="100px"
+          width="100px"
+          style="height: 100px; width: 100px;"
+        />
+    {% endif %}
+      </div>
+      <div class="element" style="width:90%; margin-right: -35pt;">
+        <p class="c36 f1_2rem">
+          <span class="c0 c26 f1_2rem">LEGAL OPINION REPORT</span>
+        </p>
+        <br style="line-height: 0.3" />
+        {% if letterhead %}
+        <p class="c36 f1rem" style="height: auto; text-align:justify">
+          <span class="c13 f1rem">{{ letterhead }}</span>
+        </p>
+        {% endif %}
+      </div>
+    </div>
+    
+ 

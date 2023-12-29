@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Python.iml" filepath="$PROJECT_DIR$/.idea/Python.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../datamatics/.idea/datamatics.iml" filepath="$PROJECT_DIR$/../datamatics/.idea/datamatics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../datamatics/capri/.idea/capri.iml" filepath="$PROJECT_DIR$/../datamatics/capri/.idea/capri.iml" />
     </modules>
   </component>
 </project>

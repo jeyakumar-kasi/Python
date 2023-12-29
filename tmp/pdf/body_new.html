@@ -1,0 +1,389 @@
+<div class="container" style="margin-top: 20px">
+  <div class="element" style="width:35%">
+    <p class="c9"><span class="c0 f1rem">To,</span></p>
+    <p class="c2">
+      <span class="c0 f1rem">{{ product_type_str }}</span>
+    </p>
+    <p class="c14" style="max-width: 200pt">
+      <span class="c1 f1rem">{{ to_address_text }}</span>
+    </p>
+  </div>
+  <div class="element" style="width:53%">
+    <table class="c35">
+      <tr class="c25">
+        <td class="c4" colspan="1" rowspan="1">
+          <p class="c9"><span class="c0 tcd f1rem">Date</span></p>
+        </td>
+        <td class="c16" colspan="1" rowspan="1">
+          <p
+            class="c9"
+            style="
+              text-overflow: clip;
+              word-wrap: break-word;
+              max-width: 98%;
+              padding: 5px;
+            "
+          >
+            <span class="c7 f1rem">{{ date }}</span>
+          </p>
+        </td>
+      </tr>
+      <tr class="c25">
+        <td class="c4" colspan="1" rowspan="1">
+          <p class="c9"><span class="c0 tcd f1rem">Deal No.</span></p>
+        </td>
+        <td class="c16" colspan="1" rowspan="1">
+          <p
+            class="c9 c12"
+            style="
+              text-overflow: clip;
+              word-wrap: break-word;
+              max-width: 98%;
+              padding: 5px;
+            "
+          >
+            <span class="f1rem">{{deal_no}}</span>
+          </p>
+        </td>
+      </tr>
+      <tr class="c27">
+        <td class="c4" colspan="1" rowspan="1">
+          <p class="c9">
+            <span class="c0 tcd f1rem">Status of L.O.R</span>
+          </p>
+        </td>
+        <td class="c16" colspan="1" rowspan="1">
+          <p
+            class="c9"
+            style="
+              text-overflow: clip;
+              word-wrap: break-word;
+              max-width: 98%;
+              padding: 5px;
+            "
+          >
+            <span class="c0 f1rem">{{report_status}}</span>
+          </p>
+        </td>
+      </tr>
+      <tr class="c27">
+		<td class="c4 w135" colspan="1" rowspan="1">
+          <p class="c9">
+            <span class="c0 tcd f1rem">Transaction Type</span>
+          </p>
+        </td>
+        <td class="c16" colspan="1" rowspan="1">
+          <p
+            class="c9"
+            style="
+              text-overflow: clip;
+              word-wrap: break-word;
+              max-width: 98%;
+              padding: 5px;
+            "
+          >
+            <span class="c1 f1rem">{{transaction_type}}</span>
+          </p>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<p class="c9 c12"><span class="c1"></span></p>
+
+<p class="c9">
+  <span class="c1 f1_2rem"
+    >Dear Sir/Madam,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span
+  >
+</p>
+<!-- <br style="line-height: 0.2" /> -->
+<p class="c9 f1_2rem" style="margin-top: 5px">
+  <span class="c0 f1_2rem"
+    >Sub: Legal Opinion Report in respect of the file of,&nbsp;{{lop_person_name}}
+  </span>
+</p>
+<!-- <br style="line-height: 0.2" /> -->
+<p class="c9 f1_2rem" style="margin-top: 5px">
+  <span class="c1 f1_2rem"
+    >Please refer to your instructions on the captioned matter. In this
+    connection, we submit our report as under:</span
+  >
+</p>
+<!-- <br style="line-height: 0.5" /> -->
+<ol class="c15 lst-kix_list_1-0 start" start="1" style="margin-top: 5px">
+  <li class="c22 li-bullet-0 f1_2rem lh1_2">
+    <span class="c0 f1_2rem">Name of the applicant: &nbsp;&nbsp;</span
+    ><span class="f1rem">{{applicant_name}}</span>
+  </li>
+  <li class="c11 li-bullet-0 f1_2rem lh1_6">
+    <span class="c0 f1_2rem">Name of the co-applicant/s: &nbsp;&nbsp;</span
+    ><span class="f1rem">{{co_applicant_names}}</span>
+  </li>
+  <li class="c11 li-bullet-0 f1_2rem lh1_6">
+    <span class="c0 f1_2rem">Name of the Current Owner/s: &nbsp;&nbsp;</span
+    ><span class="f1rem">{{current_owner_names}}</span>
+  </li>
+  <li class="c22 li-bullet-0 f1_2rem lh1_6">
+    <span class="c0 f1_2rem">Name of the Proposed Owner/s </span
+    ><span class="c7 c10 f1_2rem">(in Purchase)</span
+    ><span class="c0 f1_2rem">&nbsp;: &nbsp;</span
+    ><span class="f1rem">{{proposed_owner_names}}</span>
+  </li>
+  <li class="c11 li-bullet-0 f1_2rem lh1_6">
+    <span class="c0 f1_2rem">Payment to be made in favour of: </span
+    >&nbsp;&nbsp;<span class="f1rem">{{payment_made_favor_of}}</span>
+  </li>
+  <li class="c9 c32 li-bullet-0 f1_2rem lh1_6">
+    <span class="c0 f1_2rem">Details of the property </span
+    ><span class="c7 c10 f1_2rem">(to mention):</span>
+  </li>
+</ol>
+<div class="lh1_8">
+  <ol
+    class="c15 lst-kix_list_2-0 start f1_2rem"
+    start="1"
+    style="
+      margin-left: 25pt;
+      text-align: justify;
+      font-size: 1.2rem;
+      line-height: 2;
+    "
+  >
+    <!-- placeholder html will come here -->
+    {% for key, value in property_details_text.items() %}
+    <li>{{ value | safe }}</li>
+    {% endfor %}
+  </ol>
+</div>
+<ol class="c15 lst-kix_list_1-0 lh1_6 f1_2rem" start="7">
+  <li class="c24 li-bullet-3">
+    <span class="c0 f1_2rem">Nature of the property</span
+    ><span class="c33">&nbsp;</span
+    ><span class="c7 c10 f1_2rem">(to mention)</span
+    ><span class="c33 c10"> :</span>
+  </li>
+</ol>
+<ol
+  class="c15 lst-kix_list_2-0 start lh1_6 f1_2rem"
+  start="1"
+  style="margin-left: 25pt; text-align: justify"
+>
+  <!-- placeholder html will come here -->
+  {% for key, value in nature_of_property_text.items() %}
+  <li>{{key.replace('_', ' ').title()}} - {{ value | safe }}</li>
+  {% endfor %}
+</ol>
+
+{% if examined_doc_text %}
+<ol class="c15 lst-kix_list_1-0 lh1_2 f1_2rem" start="8">
+  <li class="c24 li-bullet-3">
+    <span class="c0 f1_2rem">Details of documents</span
+    ><span class="c33">&nbsp;</span
+    ><span class="c7 c10 f1_2rem">(to mention):</span>
+  </li>
+</ol>
+<div
+  class="examined ck-content f1_2rem lh1_6"
+  style="
+    margin-left: 19pt;
+    text-align: justify;
+    line-height: 1.9;
+    font-size: 1.2rem;
+  "
+>
+  {{ examined_doc_text | safe }}
+</div>
+{% endif %}
+
+<ol class="c15 lst-kix_list_1-0 f1_2rem lh1_6" start="9">
+  <li class="c24 li-bullet-4 f1_2rem">
+    <span class="c0 f1_2rem"
+      >Legal intervention/issue that is/ may affect title of the property </span
+    ><span class="c7 c10 f1_2rem">(to mention):</span
+    ><span class="c1">&nbsp;</span>
+    <span class="c7 c10 f1_2rem" style="font-weight: 800"
+      >{% if legal_intervention_decision %}Yes{% else %}No{% endif %}</span
+    >
+    <span class="c1">&nbsp;</span>
+  </li>
+</ol>
+
+<div
+  class="examined ck-content f1_2rem lh1_6"
+  style="margin-left: 17pt; text-align: justify; line-height: 1.9"
+>
+  {% if legal_intervention_decision %} {{ legal_intervention_text.get('summary',
+  '') | safe }} {% endif %}
+</div>
+
+<ol class="c15 lst-kix_list_1-0 f1_2rem lh1_6" start="10">
+  <li class="c24 li-bullet-5 f1_2rem">
+    <span class="c0 f1_2rem">Conclusion/ Observation </span
+    ><span class="c7 c10 f1_2rem">(to mention):</span
+    ><span class="c0">&nbsp;</span>
+    <span class="c1">&nbsp;</span>
+    <span class="c7 c10 f1_2rem" style="font-weight: 800"
+      >{% if conclusion_decision %}Yes{% else %}No{% endif %}</span
+    >
+  </li>
+</ol>
+
+{% if conclusion_decision %}
+<p class="c28 f1_2rem" style="max-width: 95% !important; padding-left: 18pt;">
+  <span class="c7 c10 f1rem" style="line-height: 20px"
+    >A summary of the flow of Title of the property and provide complete
+    clarification to the same. The flow should be very much particular and
+    descriptive in the following cases :</span
+  >
+</p>
+<div
+  class="examined ck-content f1_2rem"
+  style="margin-left: 17pt; text-align: justify; line-height: 1.6"
+>
+  {{ conclusion_text.get('summary', '') | safe }}
+</div>
+{% endif %}
+
+<p class="c28 f1_2rem">
+  <span class="c1 f1_2rem"
+    >We have pursued copies of the documents forwarded to us and have got
+    relevant and available records verified at the office of the concerned
+    Sub-Registrar for the last 13 years vide receipt no. {{ receipt_no }} dated
+    {{ receipt_date }}. The title of the property is clear, marketable, free
+    from encumbrances and SARFAESI is applicable on the property. Equitable
+    mortgage can be created in favour of {{product_type_str}} ({{product_type}})
+    by depositing the original title documents, as referred below:</span
+  >
+</p>
+<br />
+<p class="c9"><span class="c0 f1_2rem">PRE - DISBURSAL DOCUMENTS</span></p>
+<div
+  class="c9 examined ck-content f1_2rem"
+  style="
+    margin-left: 20px;
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+  "
+>
+  {{ pre_disbursal_text | safe }}
+</div>
+<p class="c9 c12"><span class="c1"></span></p>
+<br />
+<p class="c9"><span class="c0 f1_2rem">POST - DISBURSAL DOCUMENTS</span></p>
+<div
+  class="c9 examined ck-content f1_2rem"
+  style="
+    margin-left: 20px;
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+  "
+>
+  {{ pdd_text | safe }}
+</div>
+<p class="c9 c12"><span class="c1"></span></p>
+<br />
+<br />
+<p class="c9">
+  <span class="c0 c26 f1_2rem">Note:</span
+  ><span class="c0">&nbsp;(If any) </span>
+</p>
+<p class="c9">
+  <span class="c1 f1rem"
+    >As desired, the documents as received, are returned herewith.</span
+  >
+</p>
+<p class="c9">
+  <span class="c1 f1rem"
+    >Should you desire any further information and/or clarification please do
+    revert to us.</span
+  >
+</p>
+<p class="c9 c12"><span class="c1"></span></p>
+<p class="c18"><span class="c1 f1rem">Thanking you,</span></p>
+<p class="c18"><span class="c1">&nbsp;</span></p>
+<p class="c18 f1rem">
+  <span class="c1 f1rem">For &lt;{{ legal_firm_name }}&gt;</span>
+</p>
+<div class="container">
+  <div class="element">
+    <p class="c18 c12"><span class="c1"></span></p>
+    <!-- <p class="c18">
+      <span class="c1"
+        >&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</span
+      >
+    </p>
+    <p class="c18"><span class="c21 c10">Authorized Signatory </span></p> -->
+    <p class="c31">
+      <span class="c1 f1rem"
+        >Name: {{ authorized_person_name }}</span
+      >
+    </p>
+    <p class="c31">
+      <span class="c1 f1rem"
+        >Designation: {{ authorized_person_designation }}</span
+      >
+    </p>
+  </div>
+  <p class="c18">
+    <span class="c1 f1rem"
+      >Enclosure:
+      <div
+        class="examined ck-content f1_2rem lh1_6"
+        style="
+          display: inline-block;
+          margin-left: 19pt;
+          text-align: justify;
+          line-height: 1.9;
+          font-size: 1.2rem;
+          max-width: 100%;
+        "
+      >
+        {{ enclosure_type | safe }}
+      </div>
+    </span>
+  </p>
+  
+  {% if esign_data %}
+  <div
+      class=""
+      style="
+        max-width: 300px;
+        max-height: 100px;
+        width: 200px;
+        height: 100px;
+        margin-left: auto;
+        margin-bottom: 100px;
+      "
+    >
+      <div
+        class=""
+        style="
+          position: relative;
+          width: 100%;
+          max-width: 300px; max-height: 200px"
+          /* padding-top: 75%; This creates a ratio of 4:3 (adjust as needed) */
+        "
+      >
+      
+      <img
+        src="{{ esign_data | safe }}"
+        height="100px"
+        width="100px"
+        style="
+          /* position: absolute; */
+          /* top: -25px; */
+          left: auto;
+          width: 100%;
+          height: 100%;
+          object-fit: cover; /* Ensure the image covers the entire container */
+        "
+      />
+      
+    </div>
+  </div>
+  {% endif %}
+  
+   <!-- // empty spacing to prevent collision with stamp -->
+   <!-- <div style="margin-bottom: 350pt;height: 100pt;width:100%"></div> -->
+</div>
