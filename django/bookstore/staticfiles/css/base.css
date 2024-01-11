@@ -1,0 +1,32 @@
+h1 {
+    color: red;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    margin: 0 10%;
+    letter-spacing: 1px;
+}
+
+
+#logo {
+    height: 100px;
+    width: 100px;
+}
+
+#header {
+    padding: 20px;
+    background: rgba(125, 125, 125, 0.03);
+    border-bottom: 1px dotted rgba(125, 125, 125, 1);
+}
+
+#content {
+    margin-top: 20px;
+    padding: 20px;    
+}
+
+
